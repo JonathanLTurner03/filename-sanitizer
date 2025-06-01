@@ -29,7 +29,10 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Save the script as `filename-sanitizer.py`.
+1. Clone the repo:
+   ```
+   git clone https://github.com/JonathanLTurner03/filename-sanitizer.git
+   ```
 2. Run:
 
    ```
