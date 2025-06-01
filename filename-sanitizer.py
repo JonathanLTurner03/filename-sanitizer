@@ -168,7 +168,7 @@ def main():
             console.print(f"[yellow]Warning: Source {source_root} is not writable → cannot MOVE. Switching to COPY.[/yellow]")
             operation = "COPY"
 
-    console.print(f"\n[bold]Summary:[/bold]\n  • Source:f [cyan]{source_root}[/cyan] (FS={source_fs})\n  • Destination: [cyan]{dest_root}[/cyan] (FS={dest_fs})\n  • Operation: [cyan]{operation}[/cyan]\n")
+    console.print(f"\n[bold]Summary:[/bold]\n  • Source: [cyan]{source_root}[/cyan] (FS={source_fs})\n  • Destination: [cyan]{dest_root}[/cyan] (FS={dest_fs})\n  • Operation: [cyan]{operation}[/cyan]\n")
 
     # Scan for size and count
     total_files = 0
