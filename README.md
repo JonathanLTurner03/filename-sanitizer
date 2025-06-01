@@ -1,4 +1,4 @@
-# File Transfer TUI
+# File Transfer Between FileSystems
 
 A lightweight Python script that copies or moves files from one folder to another, automatically renaming any filenames that aren’t valid on the destination filesystem. It displays a live progress bar showing files and bytes transferred.
 
